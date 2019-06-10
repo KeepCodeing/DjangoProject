@@ -1,0 +1,20 @@
+安装
+https://www.runoob.com/mysql/mysql-install.html
+
+镜像
+https://segmentfault.com/a/1190000000375848
+
+启动服务
+net start mysql
+
+关闭服务
+net stoop mysql
+
+启动服务器
+mysqld --console
+
+关闭服务器
+mysqladmin -uroot shutdown
+
+登录
+mysql -u root -p 
