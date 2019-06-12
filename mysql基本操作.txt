@@ -1,20 +1,28 @@
-°²×°
+å®‰è£…
 https://www.runoob.com/mysql/mysql-install.html
 
-¾µÏñ
+é•œåƒ
 https://segmentfault.com/a/1190000000375848
 
-Æô¶¯·şÎñ
+å¯åŠ¨æœåŠ¡
 net start mysql
 
-¹Ø±Õ·şÎñ
+å…³é—­æœåŠ¡
 net stoop mysql
 
-Æô¶¯·şÎñÆ÷
+å¯åŠ¨æœåŠ¡å™¨
 mysqld --console
 
-¹Ø±Õ·şÎñÆ÷
+å…³é—­æœåŠ¡å™¨
 mysqladmin -uroot shutdown
 
-µÇÂ¼
+ç™»å½•
 mysql -u root -p 
+
+é‡ç½®å¯†ç 
+mysqld --skip-grant-tables //å±è”½æƒé™
+mysql -uroot mysql
+DELETE FROM user WHERE user='';
+UPDATE user set password=PASSWORD("newpassword") WHERE user='root';//é‡ç½®root å¯†ç 
+FLUSH PRIVILEGES; // æ›´æ–°æƒé™
+exit
